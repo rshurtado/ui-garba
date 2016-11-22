@@ -1,0 +1,134 @@
+/* Toaster */
+.gb-toaster{
+	padding: 20px 60px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    position: relative;
+    word-wrap: break-word;
+    word-break: break-word;
+    width: 350px;
+}
+.toaster-success:before{
+	background-color: #117C00;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.toaster-success:after{
+    content: "\f058";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    left: 12px;
+    line-height: 1;
+    margin-top: -8px;
+    position: absolute;
+    speak: none;
+    top: 50%;
+}
+.toaster-info:before{
+    background-color: #016AB3;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.toaster-info:after{
+    content: "\f06a";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    left: 12px;
+    line-height: 1;
+    margin-top: -8px;
+    position: absolute;
+    speak: none;
+    top: 50%;
+}
+.toaster-warning:before{
+    background-color: #FAAA00;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.toaster-warning:after{
+    content: "\f071";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    left: 12px;
+    line-height: 1;
+    margin-top: -8px;
+    position: absolute;
+    speak: none;
+    top: 50%;
+}
+.toaster-danger:before{
+    background-color: #B1010B;
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 40px;
+}
+.toaster-danger:after{
+    content: "\f057";
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    left: 12px;
+    line-height: 1;
+    margin-top: -8px;
+    position: absolute;
+    speak: none;
+    top: 50%;
+}
+.gb-toaster.toaster-success {
+    color: #117C00;
+    background-color: #fff;
+    border-color: #117C00;
+}
+.gb-toaster.toaster-info {
+    color: #016AB3;
+    background-color: #fff;
+    border-color: #016AB3;
+}
+.gb-toaster.toaster-warning {
+    color: #FAAA00;
+    background-color: #fff;
+    border-color: #FAAA00;
+}
+.gb-toaster.toaster-danger {
+    color: #B1010B;
+    background-color: #fff;
+    border-color: #B1010B;
+}
+.gb-toaster .close{
+    position: relative;
+    top: 0;
+    right: 0;
+    color: inherit;
+    margin:10px;
+}
